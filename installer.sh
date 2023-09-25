@@ -5,6 +5,7 @@ CURRENT_DIR="$(pwd)"
 ENV_FILE_PATH=".env"
 DIR="/root/TeamUltroid"
 
+
 while [ $# -gt 0 ]; do
     case "$1" in
     --dir=*)
